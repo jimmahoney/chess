@@ -1,9 +1,11 @@
 package main
 
 import (
-	"chess/engine"
-	"github.com/gorilla/mux"
 	"net/http"
+
+	"github.com/jacobroberts/chess/engine"
+
+	"github.com/gorilla/mux"
 )
 
 // Will eventually be responsible for recieving moves from chessboardjs.
